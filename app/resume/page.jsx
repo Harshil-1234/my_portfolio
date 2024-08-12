@@ -51,7 +51,7 @@ const Resume = () => {
             </TabsContent>
 
             <TabsContent value="technologies" className="w-full flex-col items-center justify-center">
-              <div className="pt-16 container mx-auto" style={{ paddingLeft: "12rem" }}>
+              <div className="pt-16 container mx-auto md:pl-[12rem] xl:pl-[12rem]">
                 <Technologies />
               </div>
             </TabsContent>

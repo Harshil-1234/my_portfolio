@@ -14,9 +14,9 @@ const Technologies = () => {
             {/* Listing down all the tech I know */}
             <span className="flex flex-col space-y-7">
             {/* DIV FOR FRONTNEND TECHS */}
-            <div className='flex flex-row items-center gap-3 p-2'>
+            <div className='flex flex-col items-center gap-3 md:p-2 xl:p-2 md:flex-row xl:flex-row'>
                 <span className="text-2xl mr-4">Frontend:</span> {/* w-1/3 lg:w-1/5 */}
-                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5"style={{ paddingLeft: "4.6rem" }}>
+                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 md:pl-[4.6rem] xl:pl-[4.6rem]">
                     <div className="flex items-center gap-1 p-1 border rounded-md shadow-md">
                         <FaReact className="text-blue-500 text-xl"/>
                         <span className="text-lg">ReactJS</span>
@@ -36,9 +36,9 @@ const Technologies = () => {
                 </span>
             </div>
             {/* DIV FOR BACKEND TECHS */}
-            <div className='flex items-center gap-3 p-2'>
+            <div className='flex flex-col md:flex-row xl:flex-row items-center gap-3 p-2'>
                 <span className="text-2xl mr-4">Backend:</span> {/* w-1/3 lg:w-1/5 */}
-                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5"style={{ paddingLeft: "5.4rem" }}>
+                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 md:pl-[5.4rem] xl:pl-[5.4rem]">
                     <div className="flex items-center gap-1 p-1 border rounded-md shadow-md">
                         <SiDjango className="text-blue-500 text-xl"/>
                         <span className="text-lg">Django</span>
@@ -58,9 +58,9 @@ const Technologies = () => {
                 </span>
             </div>
             {/* DIV FOR Databases */}
-            <div className='flex items-center gap-3 p-2'>
+            <div className='flex flex-col md:flex-row xl:flex-row items-center gap-3 p-2'>
                 <span className="text-2xl">Databases:</span> {/* w-1/3 lg:w-1/5 */}
-                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5"style={{ paddingLeft: "4.7rem" }}>
+                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 md:pl-[4.7rem] xl:pl-[4.7rem]">
                     <div className="flex items-center gap-1 p-1 border rounded-md shadow-md">
                         <SiMysql className="text-blue-500 text-3xl"/>
                         <span className="text-lg">MYSQL</span>
@@ -76,9 +76,9 @@ const Technologies = () => {
                 </span>
             </div>
             {/* DIV FOR Programming */}
-            <div className='flex items-center gap-3 p-2'>
+            <div className='flex flex-col md:flex-row xl:flex-row items-center gap-3 p-2'>
                 <span className="text-2xl w-1/7">Programming:</span> {/* w-1/3 lg:w-1/5 */}
-                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 pl-12">
+                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 md:pl-12 xl:pl-12">
                     <div className="flex items-center gap-1 p-1 border rounded-md shadow-md">
                         <SiCplusplus className="text-blue-500 text-xl"/>
                         <span className="text-lg">C++</span>
@@ -102,9 +102,9 @@ const Technologies = () => {
                 </span>
             </div>
             {/* DIV FOR Version Control */}
-            <div className='flex items-center gap-3 p-2'>
+            <div className='flex flex-col md:flex-row xl:flex-row items-center gap-3 p-2'>
                 <span className="text-2xl w-1/7">Version Control:</span> {/* w-1/3 lg:w-1/5 */}
-                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 pl-1">
+                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 md:pl-1 xl:pl-1">
                     <div className="flex items-center gap-1 p-1 border rounded-md shadow-md">
                         <SiGit className="text-red-500 text-xl"/>
                         <span className="text-lg">Git</span>
@@ -116,9 +116,9 @@ const Technologies = () => {
                 </span>
             </div>
             {/* DIV FOR Deployment */}
-            <div className='flex items-center gap-3 p-2'>
+            <div className='flex flex-col md:flex-row xl:flex-row items-center gap-3 p-2'>
                 <span className="text-2xl w-1/7">Deployment:</span> {/* w-1/3 lg:w-1/5 */}
-                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 pl-16">
+                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 md:pl-16 xl:pl-16">
                     <div className="flex items-center gap-1 p-1 border rounded-md shadow-md">
                         <SiVercel className="text-white text-xl"/>
                         <span className="text-lg">Vercel</span>
@@ -129,9 +129,9 @@ const Technologies = () => {
                 </span>
             </div>
             {/* DIV FOR other */}
-            <div className='flex items-center gap-3 p-2'>
+            <div className='flex flex-col md:flex-row xl:flex-row items-center gap-3 p-2'>
                 <span className="text-2xl">Other:</span> {/* w-1/3 lg:w-1/5 */}
-                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 "style={{ paddingLeft: "8.5rem" }}>
+                <span className="flex w-2/3 flex-wrap items-center gap-4 lg:w-4/5 md:pl-[8.5rem] xl:pl-[8.5rem]">
                     <div className="flex items-center gap-1 p-1 border rounded-md shadow-md">
                         <SiTensorflow className="text-orange-500 text-xl"/>
                         <span className="text-lg">TensorFlow</span>
