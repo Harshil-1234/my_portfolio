@@ -49,7 +49,7 @@ const Timeline = ({education}) =>{
 }
 const Circle = () =>{
     return(
-        <div className='bg-gradient-to-r from-blue-500 to-fuchsia-500 rounded-full w-4 h-4 bg-blue-500 mx-auto'>
+        <div className='bg-gradient-to-r from-blue-500 to-fuchsia-500 rounded-full w-4 h-4 bg-blue-500 mx-auto hidden md:block xl:block'>
             
         </div>
     )
@@ -57,7 +57,7 @@ const Circle = () =>{
 
 const Pillar = () =>{
     return(
-        <div className='bg-gradient-to-b from-blue-500 to-fuchsia-500 rounded-t-full rounded-b-full w-2 h-full bg-blue-500 mx-auto'>
+        <div className='bg-gradient-to-b from-blue-500 to-fuchsia-500 rounded-t-full rounded-b-full w-2 h-full bg-blue-500 mx-auto hidden md:block xl:block'>
             
         </div>
     )
