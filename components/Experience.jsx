@@ -65,7 +65,7 @@ const Pillar = () =>{
 
 const Experience = ({company,description,role,duration}) => {
   return (
-    <div className='transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-[0_4px_6px_rgba(255,255,255,0.5)] flex flex-col gap-y-2 border shadow-md rounded-xl p-4 bg-slate-600 h-full w-full md:w-auto xl:w-auto justify-center items-center'>
+    <div className='transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-[0_4px_6px_rgba(255,255,255,0.5)] flex flex-col gap-y-2 border shadow-md rounded-xl p-4 h-full w-full md:w-auto xl:w-auto bg-[#27272c]'>
             <div className=' text-[30px] font-extrabold text-white'>
                 {company}
             </div>

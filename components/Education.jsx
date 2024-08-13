@@ -65,7 +65,7 @@ const Pillar = () =>{
 
 const Education = ({name,type,duration,descp}) => {
   return (
-    <div className='transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-[0_4px_6px_rgba(255,255,255,0.5)] flex flex-col gap-y-2 border shadow-md rounded-xl p-4 bg-slate-600 h-full md:w-[350px] xl:w-[500px]'>
+    <div className='transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-[0_4px_6px_rgba(255,255,255,0.5)] flex flex-col gap-y-2 border shadow-md rounded-xl p-4 bg-[#27272c] h-full md:w-[350px] xl:w-[500px]'>
             <div className=' text-[20px] font-extrabold text-white'>
                 {name}
             </div>

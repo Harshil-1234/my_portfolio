@@ -4,15 +4,27 @@ import { Button } from "./ui/button"
 //components
 import Nav from "./Nav"
 import MobileNav from "./MobileNav"
+import Image from "next/image"
 const Header = () => {
   return (
     <header className="py-8 xl:py-12 text-white">
         <div className="container mx-auto flex justify-between items-center">
             {/* logo */}
             <Link href="/">
-                <h1 className="text-4xl font-semibold">
+                <Image 
+                    // src="/assets/photo.webp" 
+                    src="/assets/new_logo_.png" 
+                    priority 
+                    quality={100} 
+                    // fill 
+                    width={70}
+                    height={70}
+                    alt="" 
+                    className="object-contain"
+                />
+                {/* <h1 className="text-4xl font-semibold">
                     Harshil
-                </h1>
+                </h1> */}
             </Link>
 
             {/* Desktop Nav */}
