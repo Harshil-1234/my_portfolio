@@ -65,4 +65,11 @@ const page = () => {
   )
 }
 
+export const metadata = {
+  title:"Harshil Bansal - Portfolio",
+  icons: {
+    icon: "assets/new_logo_.png", // Path to your favicon
+  },
+};
+
 export default page

@@ -829,9 +829,6 @@ video {
 .w-screen {
   width: 100vw;
 }
-.w-\[10px\] {
-  width: 10px;
-}
 .min-w-\[8rem\] {
   min-width: 8rem;
 }
